@@ -1,7 +1,2 @@
-remote_theme: sighingnow/jekyll-gitbook
 title: Уроки Мастера
 description: Курс по работе с PostgreSQL
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
