@@ -45,3 +45,6 @@ await User.destroy({
   force: true 
 });
 ```
+
+- [Прошлая статья](lesson_2_6.md)
+- [Следующая статья](lesson_2_8.md)
