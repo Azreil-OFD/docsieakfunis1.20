@@ -1,5 +1,3 @@
-# Гайд от Мастера Эльнура
-
 ![Изображение](https://aniyuki.com/wp-content/uploads/2022/08/aniyuki-hello-10.gif)
 
 Дорогие студенты группы ИС 1.20!
