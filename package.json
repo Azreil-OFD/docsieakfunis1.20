@@ -1,0 +1,27 @@
+{
+  "name": "nd.ieak.fun",
+  "version": "1.0.0",
+  "description": "Проект по изучению работы с PostgreSql из Node.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azreil-OFD/nd.ieak.fun.git"
+  },
+  "author": "Azreil-OFD <fantom2413@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azreil-OFD/nd.ieak.fun/issues"
+  },
+  "homepage": "https://github.com/Azreil-OFD/nd.ieak.fun#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.33.0"
+  }
+}
