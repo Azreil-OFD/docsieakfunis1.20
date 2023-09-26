@@ -42,9 +42,9 @@ const sequelize = new Sequelize('database', 'user', 'password', {
 Далее можно проверить подключение:
 
 ```js 
-// Выполняем асинхронную проверку подключения
+// Выполняем проверку подключения
 try {
-  await sequelize.authenticate(); // вызываем метод authenticate
+ sequelize.authenticate(); // вызываем метод authenticate
   console.log('Connection has been established successfully.'); 
 } catch (error) {
   console.error('Unable to connect to the database:', error);
