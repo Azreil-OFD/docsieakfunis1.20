@@ -89,7 +89,7 @@ const { DataTypes } = require('sequelize');
 ```js 
 // создаем экспорт в виде функции Инициатора для внедрения User в объект sequelize
 module.exports = (sequelize) => {
- sequelize.define('User', {
+ const User = sequelize.define('User', {
 
   // Описываем поле firstName
   firstName: {
@@ -122,6 +122,7 @@ module.exports = (sequelize) => {
   // Указываем имя таблицы в БД
   tableName: 'users' 
 })
+return User;
 }
 ```
 
